@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "union-find.h"
+#include "disjoint-sets.h"
 
 union_find_elem_t * make_set(void * element){
     union_find_elem_t * singleton = (union_find_elem_t *) malloc(sizeof(union_find_elem_t));
